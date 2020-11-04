@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="mermaidChart0"
+   height="100%"
+   viewBox="0 0 577.5 490"
+   style="max-width:577.5px;"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="QuantedaWorkflowWTxt.svg">
+  <metadata
+     id="metadata148">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs146" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2048"
+     inkscape:window-height="1128"
+     id="namedview144"
+     showgrid="false"
+     inkscape:zoom="1.3485398"
+     inkscape:cx="149.6848"
+     inkscape:cy="319.56085"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="mermaidChart0" />
+  <style
+     type="text/css"
+     title="mermaid-svg-internal-css"
+     id="style3">/*  */
+#mermaidChart0 .node&gt;rect { ; }
+#mermaidChart0 .node text  { fill:#000; stroke:none; font-weight:300; font-family:&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serf; font-size:14px; }
+#mermaidChart0 .edgeLabel text  { fill:#000; stroke:none; font-weight:300; font-family:&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serf; font-size:14px; }
+#mermaidChart0 .cluster rect  { rx:4px; fill: rgb(255, 255, 222); rx: 4px; stroke: rgb(170, 170, 51); stroke-width: 1px; }
+*, ::before, ::after { box-sizing: border-box;}
+.mermaid .label { color: rgb(51, 51, 51);}
+.node rect, .node circle, .node ellipse, .node polygon { fill: rgb(236, 236, 255); stroke: rgb(204, 204, 255); stroke-width: 1px;}
+.edgePath .path { stroke: rgb(51, 51, 51);}
+.edgeLabel { background-color: rgb(232, 232, 232);}
+/*  */
+</style>
+  <g
+     class="clusters"
+     id="g9" />
+  <g
+     class="edgePaths"
+     id="g11">
+    <g
+       class="edgePath"
+       style="opacity:1"
+       id="g13">
+      <path
+         class="path"
+         d="m 184,66 0,25 52.25,28.25915"
+         style="fill:none;stroke:#333333;marker-end:url(#arrowhead24)"
+         id="path15"
+         inkscape:connector-curvature="0" />
+      <defs
+         id="defs17">
+        <marker
+           id="arrowhead24"
+           viewBox="0 0 10 10"
+           refX="9"
+           refY="5"
+           markerUnits="strokeWidth"
+           markerWidth="8"
+           markerHeight="6"
+           orient="auto">
+          <path
+             d="M 0,0 10,5 0,10 Z"
+             style="fill:#333333"
+             id="path20"
+             inkscape:connector-curvature="0" />
+        </marker>
+      </defs>
+    </g>
+    <g
+       class="edgePath"
+       style="opacity:1"
+       id="g22">
+      <path
+         class="path"
+         d="m 361.5,66 0,25 -52.25,28.25915"
+         style="fill:none;stroke:#333333;marker-end:url(#arrowhead25)"
+         id="path24"
+         inkscape:connector-curvature="0" />
+      <defs
+         id="defs26">
+        <marker
+           id="arrowhead25"
+           viewBox="0 0 10 10"
+           refX="9"
+           refY="5"
+           markerUnits="strokeWidth"
+           markerWidth="8"
+           markerHeight="6"
+           orient="auto">
+          <path
+             d="M 0,0 10,5 0,10 Z"
+             style="fill:#333333"
+             id="path29"
+             inkscape:connector-curvature="0" />
+        </marker>
+      </defs>
+    </g>
+    <g
+       class="edgePath"
+       style="opacity:1"
+       id="g31">
+      <path
+         class="path"
+         d="m 272.75,162 0,25 0,25"
+         style="fill:none;stroke:#333333;marker-end:url(#arrowhead26)"
+         id="path33"
+         inkscape:connector-curvature="0" />
+      <defs
+         id="defs35">
+        <marker
+           id="arrowhead26"
+           viewBox="0 0 10 10"
+           refX="9"
+           refY="5"
+           markerUnits="strokeWidth"
+           markerWidth="8"
+           markerHeight="6"
+           orient="auto">
+          <path
+             d="M 0,0 10,5 0,10 Z"
+             style="fill:#333333"
+             id="path38"
+             inkscape:connector-curvature="0" />
+        </marker>
+      </defs>
+    </g>
+    <g
+       class="edgePath"
+       style="opacity:1"
+       id="g40">
+      <path
+         class="path"
+         d="M 308.25,250.5262 382.5,283 l 0,25"
+         style="fill:none;stroke:#333333;marker-end:url(#arrowhead27)"
+         id="path42"
+         inkscape:connector-curvature="0" />
+      <defs
+         id="defs44">
+        <marker
+           id="arrowhead27"
+           viewBox="0 0 10 10"
+           refX="9"
+           refY="5"
+           markerUnits="strokeWidth"
+           markerWidth="8"
+           markerHeight="6"
+           orient="auto">
+          <path
+             d="M 0,0 10,5 0,10 Z"
+             style="fill:#333333"
+             id="path47"
+             inkscape:connector-curvature="0" />
+        </marker>
+      </defs>
+    </g>
+    <g
+       class="edgePath"
+       style="opacity:1"
+       id="g49">
+      <path
+         class="path"
+         d="M 237.25,250.5262 163,283 l 0,25"
+         style="fill:none;stroke:#333333;stroke-width:2px;stroke-dasharray:3;marker-end:url(#arrowhead28)"
+         id="path51"
+         inkscape:connector-curvature="0" />
+      <defs
+         id="defs53">
+        <marker
+           id="arrowhead28"
+           viewBox="0 0 10 10"
+           refX="9"
+           refY="5"
+           markerUnits="strokeWidth"
+           markerWidth="8"
+           markerHeight="6"
+           orient="auto">
+          <path
+             d="M 0,0 10,5 0,10 Z"
+             style="fill:#333333"
+             id="path56"
+             inkscape:connector-curvature="0" />
+        </marker>
+      </defs>
+    </g>
+    <g
+       class="edgePath"
+       style="opacity:1"
+       id="g58">
+      <path
+         class="path"
+         d="m 382.5,354 0,25 0,25"
+         style="fill:none;stroke:#333333;stroke-width:2px;stroke-dasharray:3;marker-end:url(#arrowhead29)"
+         id="path60"
+         inkscape:connector-curvature="0" />
+      <defs
+         id="defs62">
+        <marker
+           id="arrowhead29"
+           viewBox="0 0 10 10"
+           refX="9"
+           refY="5"
+           markerUnits="strokeWidth"
+           markerWidth="8"
+           markerHeight="6"
+           orient="auto">
+          <path
+             d="M 0,0 10,5 0,10 Z"
+             style="fill:#333333"
+             id="path65"
+             inkscape:connector-curvature="0" />
+        </marker>
+      </defs>
+    </g>
+  </g>
+  <g
+     class="edgeLabels"
+     id="g67">
+    <g
+       class="edgeLabel"
+       style="opacity:1"
+       id="g69">
+      <g
+         class="label"
+         id="g71">
+        <foreignObject
+           width="0"
+           height="0">
+          <div
+             style="display: inline-block; white-space: nowrap;">
+            <span
+               class="edgeLabel" />
+          </div>
+        </foreignObject>
+      </g>
+    </g>
+    <g
+       class="edgeLabel"
+       style="opacity:1"
+       id="g73">
+      <g
+         class="label"
+         id="g75">
+        <foreignObject
+           width="0"
+           height="0">
+          <div
+             style="display: inline-block; white-space: nowrap;">
+            <span
+               class="edgeLabel" />
+          </div>
+        </foreignObject>
+      </g>
+    </g>
+    <g
+       class="edgeLabel"
+       style="opacity:1"
+       id="g77">
+      <g
+         class="label"
+         id="g79">
+        <foreignObject
+           width="0"
+           height="0">
+          <div
+             style="display: inline-block; white-space: nowrap;">
+            <span
+               class="edgeLabel" />
+          </div>
+        </foreignObject>
+      </g>
+    </g>
+    <g
+       class="edgeLabel"
+       style="opacity:1"
+       id="g81">
+      <g
+         class="label"
+         id="g83">
+        <foreignObject
+           width="0"
+           height="0">
+          <div
+             style="display: inline-block; white-space: nowrap;">
+            <span
+               class="edgeLabel" />
+          </div>
+        </foreignObject>
+      </g>
+    </g>
+    <g
+       class="edgeLabel"
+       style="opacity:1"
+       id="g85">
+      <g
+         class="label"
+         id="g87">
+        <foreignObject
+           width="0"
+           height="0">
+          <div
+             style="display: inline-block; white-space: nowrap;">
+            <span
+               class="edgeLabel" />
+          </div>
+        </foreignObject>
+      </g>
+    </g>
+    <g
+       class="edgeLabel"
+       style="opacity:1"
+       id="g89">
+      <g
+         class="label"
+         id="g91">
+        <foreignObject
+           width="0"
+           height="0">
+          <div
+             style="display: inline-block; white-space: nowrap;">
+            <span
+               class="edgeLabel" />
+          </div>
+        </foreignObject>
+      </g>
+    </g>
+  </g>
+  <g
+     transform="translate(184,43)"
+     id="D"
+     style="opacity:1"
+     class="node">
+    <rect
+       style="fill:#ececff;stroke:#ccccff;stroke-width:1px"
+       id="rect96"
+       height="46"
+       width="85"
+       y="-23"
+       x="-42.5"
+       ry="0"
+       rx="0" />
+    <g
+       id="g98"
+       class="label">
+      <g
+         id="g100"
+         transform="translate(-32.5,-13)">
+        <foreignObject
+           height="26"
+           width="65">
+          <div
+             style="display: inline-block; white-space: nowrap;">Text files</div>
+        </foreignObject>
+      </g>
+    </g>
+  </g>
+  <g
+     transform="translate(361.5,43)"
+     id="V"
+     style="opacity:1"
+     class="node">
+    <rect
+       style="fill:#ececff;stroke:#ccccff;stroke-width:1px"
+       id="rect103"
+       height="46"
+       width="170"
+       y="-23"
+       x="-85"
+       ry="0"
+       rx="0" />
+    <g
+       id="g105"
+       class="label">
+      <g
+         id="g107"
+         transform="translate(-75,-13)">
+        <foreignObject
+           height="26"
+           width="150">
+          <div
+             style="display: inline-block; white-space: nowrap;">Document variables</div>
+        </foreignObject>
+      </g>
+    </g>
+  </g>
+  <g
+     transform="translate(272.75,139)"
+     id="C"
+     style="opacity:1"
+     class="node">
+    <rect
+       id="rect110"
+       style="fill:#ececff;stroke:#ccccff;stroke-width:4px"
+       height="46"
+       width="73"
+       y="-23"
+       x="-36.5"
+       ry="5"
+       rx="5" />
+    <g
+       id="g112"
+       class="label">
+      <g
+         id="g114"
+         transform="translate(-26.5,-13)">
+        <foreignObject
+           height="26"
+           width="53">
+          <div
+             style="display: inline-block; white-space: nowrap;">Corpus</div>
+        </foreignObject>
+      </g>
+    </g>
+  </g>
+  <g
+     transform="translate(272.75,235)"
+     id="T"
+     style="opacity:1"
+     class="node">
+    <rect
+       id="rect117"
+       style="fill:#ececff;stroke:#ccccff;stroke-width:4px"
+       height="46"
+       width="71"
+       y="-23"
+       x="-35.5"
+       ry="5"
+       rx="5" />
+    <g
+       id="g119"
+       class="label">
+      <g
+         id="g121"
+         transform="translate(-25.5,-13)">
+        <foreignObject
+           height="26"
+           width="51">
+          <div
+             style="display: inline-block; white-space: nowrap;">Tokens</div>
+        </foreignObject>
+      </g>
+    </g>
+  </g>
+  <g
+     transform="translate(163,331)"
+     id="AP"
+     style="opacity:1"
+     class="node">
+    <rect
+       style="fill:#ececff;stroke:#ccccff;stroke-width:1px"
+       id="rect124"
+       height="46"
+       width="286"
+       y="-23"
+       x="-143"
+       ry="0"
+       rx="0" />
+    <g
+       id="g126"
+       class="label">
+      <g
+         id="g128"
+         transform="translate(-133,-13)">
+        <foreignObject
+           height="26"
+           width="266">
+          <div
+             style="display: inline-block; white-space: nowrap;">Positional analysis (string-of-words)</div>
+        </foreignObject>
+      </g>
+    </g>
+  </g>
+  <g
+     transform="translate(382.5,427)"
+     id="AN"
+     style="opacity:1"
+     class="node">
+    <rect
+       style="fill:#ececff;stroke:#ccccff;stroke-width:1px"
+       id="rect131"
+       height="46"
+       width="310"
+       y="-23"
+       x="-155"
+       ry="0"
+       rx="0" />
+    <g
+       id="g133"
+       class="label">
+      <g
+         id="g135"
+         transform="translate(-145,-13)">
+        <foreignObject
+           height="26"
+           width="290">
+          <div
+             style="display: inline-block; white-space: nowrap;">Non-positional analysis (bag-of-words)</div>
+        </foreignObject>
+      </g>
+    </g>
+  </g>
+  <g
+     transform="translate(382.5,331)"
+     id="M"
+     style="opacity:1"
+     class="node">
+    <rect
+       id="rect138"
+       style="fill:#ececff;stroke:#ccccff;stroke-width:4px"
+       height="46"
+       width="53"
+       y="-23"
+       x="-26.5"
+       ry="5"
+       rx="5" />
+    <g
+       id="g140"
+       class="label">
+      <g
+         id="g142"
+         transform="translate(-16.5,-13)">
+        <foreignObject
+           height="26"
+           width="33">
+          <div
+             style="display: inline-block; white-space: nowrap;">DFM</div>
+        </foreignObject>
+      </g>
+    </g>
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="365.08047"
+     y="337.94"
+     id="text8208"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan8210"
+       x="365.08047"
+       y="337.94"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, '">DFM</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="241.67938"
+     y="432.97"
+     id="text8212"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan8214"
+       x="241.67938"
+       y="432.97"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, '">Non-positional analysis (bag-of-words)</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="31.495781"
+     y="336.97"
+     id="text8208-5"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan8210-8"
+       x="31.495781"
+       y="336.97"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, '">Positional analysis (string-of-words)</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="247.55141"
+     y="242.63"
+     id="text8208-1"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan8210-6"
+       x="247.55141"
+       y="242.63"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, '">Tokens </tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="247.07735"
+     y="144.24001"
+     id="text8208-3"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan8210-2"
+       x="247.07735"
+       y="144.24001"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, '">Corpus</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="287.79343"
+     y="50.630001"
+     id="text8208-0"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan8210-89"
+       x="287.79343"
+       y="50.630001"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, '">Document variables</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="151.47173"
+     y="50.630001"
+     id="text8208-38"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan8210-9"
+       x="151.47173"
+       y="50.630001"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, '">Text files</tspan></text>
+</svg>

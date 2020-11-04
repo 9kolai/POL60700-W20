@@ -1,0 +1,291 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>POL40300: Lecture 1</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/white.css">
+		<link rel="stylesheet" href="dist/reveal-override.css"/>
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+		
+	</head>
+	<body>
+		<header><img src="pic/LogoMainBlue2.png" style="width:100% "></header>
+		<div class="reveal">
+			<div class="slides">
+				<section data-background="pic/BGMainBlue.gif" style="color:white">
+					<h1  style="color:white">POL40300: Computational Methods</h1>
+					<p> Lecture 1 by Nikolai Gad</p>
+					<p>München/Zoom, 4. November 2020</p>
+				</section>
+				<section>
+					<h3 style="color: rgb(0,101,189)">POL40300: Computational Methods</h3>
+					<section>
+						<table>
+						<thead>
+							<tr>
+								<th>Lectures</th>
+								<th>Tutorial group 1 </th>
+								<th>Tutorial group 2 </th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Wednesdays</td>
+								<td>Thursdays</td>
+								<td>Thursdays</td>
+							</tr>
+							<tr>
+								<td>13:15 - 14:45</td>
+								<td>11:30 - 13:00</td>
+								<td>15:00 - 16:30</td>
+							</tr>
+							<tr>
+								<td>Zoom </br>
+								Meeting ID: 981 9761 8638 </td>
+								<td>Zoom </td>
+								<td>Zoom </td>
+							</tr>
+						</tbody>
+						</table>
+					</section>
+					<section>
+						<h2>Contact</h2>
+						<p>Nikolai Gad</p>
+						<p>nikolai.gad@hfp.tum.de</p>
+						<p>Room: H.412</p>
+						<p>Office Hours: Monday, 3-4PM (but please email beforehand)</p>
+						<p class="fragment" style="font-style: italic;">Kein Deutsch (sorry, Ich lerne)</p>
+						
+					</section>
+					<section>
+						<h2>Slides</h2>
+						<p>Links to slides uploaded to Moodle after lectures (does anyone need slides beforehand?) </p>
+						<p>Slides are also available at <a href="https://github.com/9kolai/POL40300-W20/lecture1.html">https://github.com/9kolai/POL40300-W20/lecture1.html</a></p>
+					</section>
+					<section>
+						<h2>An INTRODUCTION to Computational Social Science (no prior knowledge assumed)</h2>
+						<ul>
+							<li class="fragment">Understanding methods</li>
+							<ul>
+								<li class="fragment">Reading about other's research. </li>
+								<li class="fragment">Asking relevant research questions. </li>
+							</ul>
+							<li class="fragment">Using methods</li>
+							<ul>
+								<li class="fragment">Collect and analyse data. </li>
+								<li class="fragment">Interpret results and report findings. </li>
+								<li class="fragment">Relate results to existing knowledge. </li>
+							</ul>
+						</ul>
+					</section>
+					<section> 
+						<h2>Three roles of computation in social science methods: </h2>
+						<ul>
+							<li class="fragment">Collecting/retrieving data </li>
+							<li class="fragment">Managing data </li>
+							<li class="fragment">Analysing data </li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h3 style="color: rgb(0,101,189)">Who am I? Who are you? </h3>
+						<h2>Me: </h2>
+						<ul>
+							<li>BSc in Political Science, University of Copenhagen </li>
+							<li>MSc in Digital Design & Communication, IT University of Copenhagen </li>
+							<li>MRes in Digital Civics, Open Lab, Newcastle University</li>
+							<li>PhD, Centre for Doctoral Training in Digital Civics, Newcastle University</li>
+						</ul>
+						<p>Research interests: (digital) Democratic Innovation, deliberation, political parties, online political participation </p>
+					</section>
+					<section>
+						<h3 style="color: rgb(0,101,189)">Who am I? Who are you? </h3>
+						<h2>Teaching Assistant: </h2>
+						<ul>
+							<li>Joao Lucas Dziekan Rodrigues Hilgert </li>
+							<li class="fragment">Or just Lucas </li>
+							<li class="fragment">Will present himself tomorrow </li>
+						</ul>
+					</section>
+					<section> 
+						<h3 style="color: rgb(0,101,189)">Who am I? Who are you? </h3>
+						
+						<h2>Who are you? </h2>
+					</section>
+				</section>
+				<section>
+					<h3 style="color: rgb(0,101,189)">Structure of module </h3>
+					<section>
+						<h2>Syllabus</h2>
+						<p>Will be available on Moodle page of course</p>
+						<a hrerf="https://www.moodle.tum.de/">https://www.moodle.tum.de/</a>
+						<p class="fragment">More resources will be uploaded here</p>
+					</section>
+					<section>
+						<h2>Syllabus</h2>
+						<ol>
+							<li class="fragment">Introduction to computational methods in social science + introduction to R </li>
+							<li class="fragment">Computational text analysis </li>
+							<li class="fragment">Statistical inference and big data </li>
+							<li class="fragment">Privacy and ethics </li>
+							<li class="fragment">Computational data collection </li>
+						</ol>
+					</section>
+					<section>
+						<h2>Intended Learning Outcomes</h2>
+						<p>The course is an introductory course to computational methods, aimed at Master students with different academic backgrounds. As such, no prior knowledge about computational methods, programming, or the use of these in political science is assumed, although some prior knowledge in either of these fields might be useful for students. The module emphasises striking a good balance between introducing core concepts of computational methods and familiarising students with current debates in computational political research methodologies. </p>
+						<p>Against this backdrop, the course aims to: </p>
+						<ul>
+							<li class="fragment">Provide students with foundational knowledge about theoretical concepts and methodologies used in computational political science. </li>
+							<li class="fragment">Equip students with sufficient knowledge about the strengths and weaknesses of different computational methods, to be able to: </li>
+							<ul>
+								<li class="fragment">Critically understand and evaluate the methods used in computational social science research. </li>
+								<li class="fragment">Design simple research projects based on computational social science methods by themselves. </li>
+							</ul>
+							<li class="fragment">Equip students with methodological skills enabling them to: </li>
+							<ul>
+								<li class="fragment">Collect and analyse political science data computationally. </li>
+								<li class="fragment">Report findings from simple computational political science projects. </li>
+							</ul>
+						</ul>
+					</section>
+					<section>
+						<h2>Lectures</h2>
+						<p>Two parts: </p>
+						<ul>
+							<li class="fragment">Introducing core concepts in computational methods. </li>
+							<li class="fragment">Examples of how computational methods are applied in political science. </li>
+							<li class="fragment">(Critical) Reflections on methods. </li>
+						</ul>
+						<h3 class="fragment">Readings: </h3>
+						<ul>
+							<li class="fragment">Examples of using methods: Required to read before lecture! </li>
+							<li class="fragment">Readings about methods: Also required readings, but not necessarily before class. </li>
+							<li class="fragment">Additional readings: Readings that might be helpful for you to understand concepts in class. </li>
+						</ul>
+					</section>
+					<section>
+						<h2>Tutorials</h2>
+						<p>Consists of practical exercises related to the week's lecture</p>
+						<p class="fragment" style="font-style: italic;">(Exam will feature similar task)</p>
+						
+						<p class="fragment">Preparation: </p>
+						<ul>
+							<li class="fragment">Same readings as suggested for week's lecture. </li>
+							<li class="fragment">Only limited amount of reading, but...</li>
+							<li class="fragment">Expectation to work on exercises in sparetime. </li>
+						</ul>
+						
+						<p class="fragment">Practical: </p>
+						<ul>
+							<li class="fragment">All software used freely available. </li>
+							<li class="fragment">Computers with software available at HfP, but not sure that you will have access to HfP. </li>
+							<li class="fragment">You will have to install everything on your own computers. </li>
+						</ul>
+						
+					</section>
+					<section>
+						<p>Lectures and tutorials will as far as possible accompany each other so concepts introduced on Wednesday will be covered in hands-on exercises on Thursdays. </p>
+						<p class="fragment">Each lecture and accompanying tutorial will (mostly) build on top of the previous ones. </p>
+					</section>
+					<section>
+						<h2>Methodological readings</h2>
+						<p>Lots of free materials available online - I will post links on Moodle/add to syllabus</p>
+						<ul>
+							<li class="fragment">Free e-books</li>
+							<li class="fragment">Online step-by-step tutorials and courses </li>
+							<li class="fragment">For specific issues: Forums and mailing lists - (Stackoverflow, r-help)</li>
+							<li class="fragment">Official R documentation (available from within R and online)</li>
+							<li class="fragment">Blog posts</li>
+							<li class="fragment">Google (or your preferred search engine) is your friend!</li>
+						</ul>
+						<p class="fragment">There are also good commercially books available, but they are often expensive and gets outdated quickly (there are exeptions though). </p>
+					</section>
+					<section>
+						<h2>Two good books</h2>
+						<ul>
+							<li>Salganik, M. J. (2017). Bit by Bit: Social Research in the Digital Age. Princeton University Press.
+								<ul>
+								<li>Some chapters are required readings. </li>
+								<li>Available online: <a href="https://www.bitbybitbook.com/">https://www.bitbybitbook.com/</a></li>
+								</ul>
+							</li>
+							<li>Munzert, S., Rubba, C., Meißner, P., & Nyhuis, D. (2014). Automated data collection with R: A practical guide to web scraping and text mining. John Wiley & Sons.
+							<ul>
+								<li>Good resource on how to collect data. </li>
+								<li>A bit more advanced than this course. </li>
+							</ul>
+							</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Assessment</h2>
+						<p>3-day written assignment at home. </p>
+						<p>17th February - 19th February 2021</p>
+						<ul class="fragment">
+							<li>Data analysis (tutorials)</li>
+							<li>Written report (lectures)</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<h3 style="color: rgb(0,101,189)">What is Computational Methods? </h3>
+					<section>
+						<h1>A very good question! </h1>
+					</section>
+					<section>
+						<p class="fragment" style="font-style: italic;">Lazer, D., Pentland, A., Adamic, L., Aral, S., Barabási, A.-L., Brewer, D., … Alstyne, M. V. (2009). Computational Social Science. Science, 323(5915), 721–723. https://doi.org/10.1126/science.1167742</p>
+						<p class="fragment">Thoughts about an emerging field 10 years ago. How do you think things has developed since then?</p>
+					</section>
+					<section>
+						<h2>Opportunities of Computational Social Science</h2>
+						<ul>
+							<li class="fragment">Fine-grained data ("socio-meters")</li>
+							<li class="fragment">Macro scale: “the concerns of the electorate becomes visible...” (p. 722) </li>
+							<li class="fragment">Unprecedented breadth, depth, and scale of data: “...a complete record of individual behaviour...” </li>
+							<li class="fragment">(data collection and analysis in real-time)</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Obstacles to Computational Social science</h2>
+						<ul>
+							<li class="fragment">New methods needed. </li>
+							<li class="fragment">Overcoming disciplinary silos. </li>
+							<li class="fragment">Access and privacy</li>
+							<li class="fragment">Training of specialist</li>
+						</ul>
+					</section>
+					<section>
+						<blockquote>“In the long run, the question will be whether academia should nurture computational social scientists, or teams of computationally literate social scientists and socially literate computer scientists.” </blockquote>
+					</section>
+				</section>
+				<section>
+			</div>
+		</div>
+		
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
